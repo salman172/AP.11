@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int nilai[10];
+    int z=0;
+    int bil,i;
+
+    for(i=0;i<10;i++){
+        z++;
+        cout<<"Masukan angka ke-"<<<<"  = ";
+        cin>>nilai[i];
+    }
+    cout<<endl<<"Masukan nilai yand di cari : ";
+    cin>>bil;
+    
+    cout<<endl<<"Nilai yang dicari ada di indeks ke - ";
+    for(i=0;i<10;i++){
+        if(nilai[i]==bil){
+            cout<<i<<" ";
+        }
+    }
+    cout<<endl;
+
+return 0;
+}
